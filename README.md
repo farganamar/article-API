@@ -4,9 +4,15 @@ This project using Golang `1.21.0` version
 # How to use
 On terminal:
 
+run DB and redis from docker
+
+    docker compose up -d 
+
+
+then run golang Restful API
+
     go run main.go 
 
-It will show us the list of available command
 
 # API
  To create new Article, copy and paste this cURL: 
